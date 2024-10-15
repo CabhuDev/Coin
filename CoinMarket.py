@@ -42,5 +42,3 @@ def get_eth_price():
 
 
 
-get_btc_price()
-get_eth_price()
