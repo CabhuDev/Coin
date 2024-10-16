@@ -1,3 +1,5 @@
+##--  Lógica para interactuar con la API de CoinMarketCap --##
+
 # --API-- #
 # 071c564a-f754-47e9-828c-1ec14149b80e
 
@@ -37,6 +39,7 @@ def get_eth_price():
     try:
         price_eth = data['data']['ETH']['quote']['USD']['price']
         print(f"El precio actual de ETH es: ${price_eth:.2f}")
+        return(f"El precio actual de ETH es: ${price_eth:.2f}")
     except KeyError as e:
         print(e)
 
