@@ -1,4 +1,4 @@
-from services import CoinMarket
+import CoinMarket
 
 def main():
 
