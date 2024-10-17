@@ -1,9 +1,9 @@
-from services import coinMarket
+from services import CoinMarket
 
 def main():
 
-    coinMarket.get_btc_price()
-    coinMarket.get_eth_price()
+    CoinMarket.get_btc_price()
+    CoinMarket.get_eth_price()
 
 
 main()
