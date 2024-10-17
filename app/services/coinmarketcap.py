@@ -1,3 +1,4 @@
+# Lógica para interactuar con la API de CoinMarketCap
 # --API-- #
 # 071c564a-f754-47e9-828c-1ec14149b80e
 
@@ -27,8 +28,10 @@ def get_btc_price():
     try:
         price_btc = data['data']['BTC']['quote']['USD']['price']
         print(f"El precio actual de BTC es: ${price_btc:.2f}")
+        return price_btc
     except KeyError as e:
         print(e)
+        return e
 
 # Realiza la solicitud para obtener el precio de Ethereum
 def get_eth_price():
@@ -37,8 +40,12 @@ def get_eth_price():
     try:
         price_eth = data['data']['ETH']['quote']['USD']['price']
         print(f"El precio actual de ETH es: ${price_eth:.2f}")
+        return price_eth
     except KeyError as e:
         print(e)
+        return e
+    
+
 
 
 

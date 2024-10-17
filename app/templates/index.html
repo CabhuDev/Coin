@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+  
+  <head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configura la escala y el ancho de la vista para dispositivos móviles -->
+    <title>Crypto Prices</title> <!-- Título de la página que aparecerá en la pestaña del navegador -->
+    <script src="/static/js/script.js" defer></script> <!-- Vincula un archivo JavaScript externo que se ejecutará de manera diferida -->
+    <link rel="stylesheet" href="/static/css/style.css"> <!-- Vincula un archivo Css externo que se ejecutará de manera diferida -->
+  
+  </head>
+  <body>
+    <h1>Precio en tiempo real de Ethereum y BTC</h1> <!-- Título principal de la página que describe su propósito -->
+    
+    <button onclick="getEthPrice()">Obtener precio de ETH</button> <!-- Botón que al ser presionado ejecuta la función getEthPrice() definida en el archivo JavaScript vinculado -->
+    <p id="eth_price"></p> <!-- Elemento de párrafo donde se mostrará el precio de Ethereum obtenido desde el servidor -->
+    
+    <button onclick="getBtcPrice()">Obtener precio de BTC</button> <!-- Botón que al ser presionado ejecuta la función getEthPrice() definida en el archivo JavaScript vinculado -->
+    <p id="btc_price"></p> <!-- Elemento de párrafo donde se mostrará el precio de Bitcoin obtenido desde el servidor -->
+
+  </body>
+  </Style>
+</html>
