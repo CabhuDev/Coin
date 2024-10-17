@@ -1,3 +1,4 @@
+# Lógica para interactuar con la API de CoinMarketCap
 # --API-- #
 # 071c564a-f754-47e9-828c-1ec14149b80e
 
