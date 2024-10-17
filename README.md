@@ -27,4 +27,3 @@ crypto_app/
     python -m uvicorn app.main:app --reload
 3. Abre un navegador y visita http://127.0.0.1:8000 para ver la aplicación funcionando.
 4. 
-C:\Users\Pablo\iCloudDrive\1.1Programación\Python
